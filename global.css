@@ -1,0 +1,69 @@
+@import url("./styles/components/header.css");
+@import url("./styles/components/fonts.css");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --dark: #282828;
+  --gold: #ded0be;
+  --green: #5f6039;
+  --orange: #b05514;
+
+  /*Font style*/
+  --script: "Allura", cursive;
+
+  /*Font Sizes*/
+  --xxxxl: 6rem;
+  --xxxl: 5.5rem;
+  --xxl: 4.8rem;
+  --xl: 4.2rem;
+  --lg: 3rem;
+  --md: 2.5rem;
+  --base: 2rem;
+  --sm: 1.4rem;
+  --xs: 1.1rem;
+  --xxs: 0.8rem;
+}
+
+button {
+  outline: none;
+  border: none;
+  border-radius: 0.2rem;
+}
+button:hover {
+  cursor: pointer;
+}
+header {
+  max-width: 2000px;
+}
+section {
+  max-width: 2000px;
+  margin: auto;
+  padding-top: 40px;
+  background: blanchedalmond;
+}
+.wrapper {
+  width: 90%;
+  margin: auto;
+}
+
+/*Sm*/
+@media (min-width: 640px) {
+}
+/*Md*/
+@media (min-width: 768px) {
+}
+/*Lg*/
+@media (min-width: 1024px) {
+}
+/*Xl*/
+@media (min-width: 1280px) {
+}
+/*2xl*/
+@media (min-width: 1536px) {
+}

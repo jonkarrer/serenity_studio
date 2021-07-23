@@ -1,0 +1,17 @@
+header {
+  background: var(--dark);
+  width: 100vw;
+  display: grid;
+}
+header img {
+  margin: auto;
+  width: 150px;
+}
+header nav {
+  background: var(--gold);
+  width: 100vw;
+  text-align: center;
+  display: grid;
+  grid-auto-flow: column;
+  padding: 5px 0;
+}
