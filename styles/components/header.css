@@ -3,6 +3,8 @@ header {
   width: 100vw;
   display: grid;
   z-index: 10;
+  max-width: 2000px;
+  margin: auto;
 }
 header img {
   margin: auto;
@@ -10,10 +12,43 @@ header img {
 }
 header nav {
   background: var(--gold);
-  width: 100vw;
+  width: 100%;
   text-align: center;
   display: grid;
   grid-auto-flow: column;
   padding: 5px 0;
   position: sticky;
+  top: 20px;
+}
+
+/*Md*/
+@media (min-width: 768px) {
+  header nav {
+    place-content: center;
+    padding: 5px 0;
+    gap: 100px;
+  }
+}
+
+/*Lg*/
+@media (min-width: 1024px) {
+  header img {
+    width: 200px;
+  }
+  header nav {
+    gap: 130px;
+    font-size: 1.4rem;
+    padding: 7px 0;
+  }
+}
+
+/*2xl*/
+@media (min-width: 1536px) {
+  header img {
+    width: 250px;
+  }
+  header nav {
+    font-size: 1.6rem;
+    gap: 160px;
+  }
 }

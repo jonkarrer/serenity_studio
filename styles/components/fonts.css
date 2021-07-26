@@ -19,7 +19,7 @@ a {
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
 }
 h2 {
   font-size: 3.3rem;
@@ -70,7 +70,7 @@ h6 {
 /*2xl*/
 @media (min-width: 1536px) {
   h1 {
-    font-size: 6.5rem;
+    font-size: 9rem;
   }
   h2 {
     font-size: 5.3rem;
@@ -82,7 +82,7 @@ h6 {
     font-size: 4.2rem;
   }
   h5 {
-    font-size: 3.9rem;
+    font-size: 4rem;
   }
   h6 {
     font-size: 3.5rem;

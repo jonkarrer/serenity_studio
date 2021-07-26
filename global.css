@@ -10,6 +10,7 @@ html {
 }
 body {
   overflow-x: hidden;
+  position: relative;
 }
 :root {
   --dark: #282828;
