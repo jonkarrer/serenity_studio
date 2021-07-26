@@ -1,0 +1,130 @@
+@keyframes translate_right {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes translate_left {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes translate_down {
+  0% {
+    transform: translateY(-600%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes translate_up {
+  0% {
+    transform: translateY(600%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes translate_down_reset {
+  0% {
+    transform: translateY(-600%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes translate_up_reset {
+  0% {
+    transform: translateY(600%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes scale_background {
+  0% {
+    background-size: 100% 100%;
+  }
+  100% {
+    background-size: 120% 120%;
+  }
+}
+@keyframes scale_background_reset {
+  0% {
+    background-size: 100% 100%;
+  }
+  100% {
+    background-size: 120% 120%;
+  }
+}
+
+section.slides {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../../assets/_Slides/slide_one.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  height: 50vh;
+  display: grid;
+  place-items: center;
+  color: white;
+  overflow: hidden;
+  z-index: -1;
+  animation: scale_background 8s;
+  animation-timing-function: linear;
+}
+section.slides_two {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../../assets/_Slides/slide_two.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 50vh;
+  display: grid;
+  place-items: center;
+  color: white;
+  overflow: hidden;
+  z-index: -1;
+  animation: scale_background_reset 8s;
+  animation-timing-function: linear;
+  background-position: center;
+}
+.slides_wrapper {
+  display: grid;
+  place-content: center;
+  text-align: center;
+  gap: 15px;
+  height: 100%;
+  width: 90%;
+  margin: auto;
+}
+.slides_wrapper h1 {
+  letter-spacing: 15px;
+}
+.slides_wrapper h5 {
+  font-family: var(--script);
+  height: 20px;
+}
+
+section.slides h5 {
+  animation: translate_down 1s;
+}
+section.slides h1 {
+  animation: translate_right 1s;
+}
+section.slides p {
+  animation: translate_up 1s;
+}
+
+/* Change Text */
+section.slides h1::after {
+  content: ".Extend.";
+}
+section.slides_two h1::after {
+  content: ".Color.";
+}

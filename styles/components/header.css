@@ -2,6 +2,7 @@ header {
   background: var(--dark);
   width: 100vw;
   display: grid;
+  z-index: 10;
 }
 header img {
   margin: auto;
@@ -14,4 +15,5 @@ header nav {
   display: grid;
   grid-auto-flow: column;
   padding: 5px 0;
+  position: sticky;
 }

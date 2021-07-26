@@ -8,6 +8,9 @@
 html {
   scroll-behavior: smooth;
 }
+body {
+  overflow-x: hidden;
+}
 :root {
   --dark: #282828;
   --gold: #ded0be;
@@ -44,8 +47,7 @@ header {
 section {
   max-width: 2000px;
   margin: auto;
-  padding-top: 40px;
-  background: blanchedalmond;
+  padding: 40px 0;
 }
 .wrapper {
   width: 90%;
