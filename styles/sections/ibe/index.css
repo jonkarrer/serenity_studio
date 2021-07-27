@@ -1,0 +1,54 @@
+section.ibe {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../../../assets/ibe/salon_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+}
+section.ibe .wrapper {
+  display: grid;
+  place-items: center;
+  height: 100%;
+}
+section.ibe article {
+  display: grid;
+  place-items: center;
+  text-align: center;
+
+  gap: 20px;
+}
+section.ibe span {
+  font-family: "Assistant", sans-serif;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+/*Md*/
+@media (min-width: 768px) {
+}
+
+/*Lg*/
+@media (min-width: 1024px) {
+  section.ibe article {
+    gap: 30px;
+    width: 80%;
+  }
+  section.ibe span {
+    font-size: 2.3rem;
+  }
+}
+
+/*2xl*/
+@media (min-width: 1536px) {
+  section.ibe article {
+    gap: 30px;
+    width: 80%;
+  }
+  section.ibe span {
+    font-size: 3rem;
+  }
+  section.ibe img {
+    width: 350px;
+  }
+}
