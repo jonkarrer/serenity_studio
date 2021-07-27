@@ -18,7 +18,9 @@ header nav {
   grid-auto-flow: column;
   padding: 5px 0;
   position: sticky;
-  top: 20px;
+  position: -webkit-sticky;
+  top: 0;
+  font-weight: 600;
 }
 
 /*Md*/
@@ -38,7 +40,7 @@ header nav {
   header nav {
     gap: 130px;
     font-size: 1.4rem;
-    padding: 7px 0;
+    padding: 5px 0;
   }
 }
 

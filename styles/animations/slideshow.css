@@ -1,0 +1,53 @@
+@keyframes translate_right {
+  0% {
+    transform: translateX(-200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes translate_left {
+  0% {
+    transform: translateX(200%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes translate_down {
+  0% {
+    transform: translateY(-600%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes translate_up {
+  0% {
+    transform: translateY(600%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* 
+** A hack to reset the animation when the class name changes to slides_two. 
+** Animation states persist is not renamed.
+*/
+@keyframes translate_down_reset {
+  0% {
+    transform: translateY(-600%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes translate_up_reset {
+  0% {
+    transform: translateY(600%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

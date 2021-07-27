@@ -1,98 +1,26 @@
-@keyframes translate_right {
-  0% {
-    transform: translateX(-200%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@keyframes translate_left {
-  0% {
-    transform: translateX(200%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@keyframes translate_down {
-  0% {
-    transform: translateY(-600%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-@keyframes translate_up {
-  0% {
-    transform: translateY(600%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-@keyframes translate_down_reset {
-  0% {
-    transform: translateY(-600%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-@keyframes translate_up_reset {
-  0% {
-    transform: translateY(600%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
-
-@keyframes scale_background {
-  0% {
-    background-size: 100% 100%;
-  }
-  100% {
-    background-size: 120% 120%;
-  }
-}
-@keyframes scale_background_reset {
-  0% {
-    background-size: 100% 100%;
-  }
-  100% {
-    background-size: 120% 120%;
-  }
-}
+@import url("../../animations/slideshow.css");
 
 section.slides {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("../../../assets/slides/slide_one.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
   height: 60vh;
   display: grid;
   place-items: center;
   color: white;
-  overflow: hidden;
-  z-index: -1;
-  animation: scale_background 8s;
-  animation-timing-function: linear;
 }
 section.slides_two {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
     url("../../../assets/slides/slide_two.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
   height: 60vh;
   display: grid;
   place-items: center;
   color: white;
-  overflow: hidden;
-  z-index: -1;
-  animation: scale_background_reset 8s;
-
-  background-position: center;
 }
 .slides_wrapper {
   display: grid;
@@ -103,6 +31,8 @@ section.slides_two {
   width: 90%;
   margin: auto;
 }
+
+/* Contant styles for each slide*/
 .slides_wrapper h1 {
   letter-spacing: 15px;
 }
@@ -111,6 +41,7 @@ section.slides_two {
   height: 20px;
 }
 
+/* Initial animations for slide */
 section.slides h5 {
   animation: translate_down 1s;
   font-weight: normal;
