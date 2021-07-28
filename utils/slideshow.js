@@ -1,8 +1,6 @@
 export default function slideshow() {
   const slides = document.querySelector("section.slides");
   const slidesTitle = document.getElementById("slide_title");
-  const slidesScript = document.getElementById("slide_script");
-  const slidesSubtext = document.getElementById("slide_subtext");
   let toggle = true;
   let iterations = 0;
   const animation = setInterval(() => {
@@ -12,7 +10,7 @@ export default function slideshow() {
     }
     if (toggle) {
       slides.style.backgroundImage =
-        "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../../../assets/slides/slide_two.jpg')";
+        "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../assets/slides/slide_two.jpg')";
       slidesTitle.innerText = ".Color.";
     } else {
       slides.style.backgroundImage =
