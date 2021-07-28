@@ -4,14 +4,6 @@
     transform: translateX(0);
   }
 }
-@keyframes translate_left {
-  0% {
-    transform: translateX(200%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
 @keyframes translate_down {
   20%,
   100% {

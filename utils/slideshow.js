@@ -12,11 +12,11 @@ export default function slideshow() {
     }
     if (toggle) {
       slides.style.backgroundImage =
-        "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../assets/slides/slide_two.jpg')";
+        "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../../../assets/slides/slide_two.jpg')";
       slidesTitle.innerText = ".Color.";
     } else {
       slides.style.backgroundImage =
-        "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../assets/slides/slide_one.jpg')";
+        "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../../../assets/slides/slide_one.jpg')";
       slidesTitle.innerText = ".Extend.";
     }
 
