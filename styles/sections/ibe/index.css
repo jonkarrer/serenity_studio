@@ -17,6 +17,9 @@ section.ibe article {
   text-align: center;
   gap: 20px;
 }
+section.ibe h3 {
+  line-height: 1.2;
+}
 section.ibe img {
   width: 200px;
 }
