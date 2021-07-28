@@ -20,6 +20,7 @@ export default function slideshow() {
     } else {
       slides.style.backgroundImage =
         "linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url('../assets/slides/slide_one.jpg')";
+      slidesTitle.innerText = ".Extend.";
       slidesTitle.style.animation = "translate_right 2s";
       slidesScript.style.animation = "translate_down 1s";
       slidesSubtext.style.animation = "translate_up 1s";
