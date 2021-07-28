@@ -11,17 +11,6 @@ section.slides {
   place-items: center;
   color: white;
 }
-section.slides_two {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../../../assets/slides/slide_two.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 60vh;
-  display: grid;
-  place-items: center;
-  color: white;
-}
 .slides_wrapper {
   display: grid;
   place-content: center;
@@ -51,14 +40,6 @@ section.slides h1 {
 }
 section.slides p {
   animation: translate_up 1s;
-}
-
-/* Change Text */
-section.slides h1::after {
-  content: ".Extend.";
-}
-section.slides_two h1::after {
-  content: ".Color.";
 }
 
 /*Md*/
