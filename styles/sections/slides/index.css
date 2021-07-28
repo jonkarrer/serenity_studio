@@ -32,14 +32,23 @@ section.slides {
 
 /* Initial animations for slide */
 section.slides h5 {
-  animation: translate_down 1s;
+  transform: translateY(-600%);
+  animation: translate_down 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 4;
   font-weight: normal;
 }
 section.slides h1 {
-  animation: translate_right 1s;
+  transform: translateX(-200%);
+  animation: translate_right 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 4;
 }
 section.slides p {
-  animation: translate_up 1s;
+  transform: translateY(600%);
+  animation: translate_up 5s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: 4;
 }
 
 /*Md*/
