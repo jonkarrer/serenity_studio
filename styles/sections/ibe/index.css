@@ -15,8 +15,10 @@ section.ibe article {
   display: grid;
   place-items: center;
   text-align: center;
-
   gap: 20px;
+}
+section.ibe img {
+  width: 200px;
 }
 section.ibe span {
   font-family: "Assistant", sans-serif;

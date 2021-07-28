@@ -9,7 +9,7 @@ section.about article {
   display: grid;
   place-content: center;
   gap: 40px;
-  margin: 30px auto;
+  margin: 10px auto;
 }
 section.about article button {
   width: 250px;
@@ -26,8 +26,9 @@ section.about h1 {
   top: 0;
   right: 0;
   left: 0;
-  font-size: 8rem;
+  font-size: 7.8rem;
   z-index: -1;
+  font-weight: 400;
 }
 
 /*Lg*/
@@ -42,7 +43,7 @@ section.about h1 {
     padding: 10px 0;
   }
   section.about h1 {
-    font-size: 12rem;
+    font-size: 14rem;
   }
 }
 
