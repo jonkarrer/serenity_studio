@@ -3,7 +3,7 @@ section.about {
   text-align: center;
   color: white;
   position: relative;
-  z-index: -2;
+  z-index: 2;
 }
 section.about article {
   display: grid;
@@ -14,11 +14,12 @@ section.about article {
 section.about article button {
   width: 250px;
   margin: auto;
-  padding: 10px 0;
+  padding: 15px 0;
   background: var(--dark);
   color: white;
   border: var(--green) solid 2px;
 }
+
 section.about h1 {
   position: absolute;
   font-family: var(--script);

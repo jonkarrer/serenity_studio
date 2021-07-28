@@ -4,6 +4,7 @@ section.ibe {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+  min-height: 300px;
   color: white;
 }
 section.ibe .wrapper {
@@ -23,7 +24,7 @@ section.ibe h3 {
 section.ibe img {
   width: 200px;
 }
-section.ibe span {
+section.ibe a {
   font-family: "Assistant", sans-serif;
   font-weight: 600;
   font-size: 2rem;
@@ -39,7 +40,7 @@ section.ibe span {
     gap: 30px;
     width: 80%;
   }
-  section.ibe span {
+  section.ibe a {
     font-size: 2.3rem;
   }
 }
@@ -50,7 +51,7 @@ section.ibe span {
     gap: 30px;
     width: 80%;
   }
-  section.ibe span {
+  section.ibe a {
     font-size: 3rem;
   }
   section.ibe img {
