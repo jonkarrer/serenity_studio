@@ -5,7 +5,7 @@ A website for a client that does hair in florida. She wants a fresh reponsive we
 ## Feedback
 
 3. (IBE section)
-   Am I able to use the logo Amanda has with the revolving IBE circle? I like the "Explore" or "Visit IBE" tab option but would like to link to their instagram instead of their website.I think the website is geared towards stylists and not potential clients. I will have a salon photo for you by Wednesday for this background. ( we can add the webite/stylist locator section at the bottom of the page or something)
+   ( we can add the webite/stylist locator section at the bottom of the page or something)
 
 4. Photo Gallery
    I honestly love this gallery so for now so would like to leave it. Is this something that can be switched up with the ongoing plan as I get new ones to showcase? Or maybe have this just be a link to my IG and let section 5 have the photos displayed on the page?

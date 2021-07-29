@@ -1,0 +1,117 @@
+section.gallery {
+  background: var(--gold);
+  position: relative;
+  z-index: 2;
+}
+section.gallery h1 {
+  position: absolute;
+  font-family: var(--script);
+  color: var(--green);
+  top: 0;
+  right: 0;
+  left: 0;
+  font-size: 6rem;
+  font-weight: 400;
+  text-align: center;
+  z-index: -1;
+}
+section.gallery .title_container {
+  text-align: center;
+  margin: 10px auto;
+  color: white;
+}
+section.gallery p {
+  color: var(--orange);
+}
+section.gallery .wrapper {
+  display: grid;
+  place-items: center;
+  gap: 40px;
+}
+section.gallery .image_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+section.gallery img {
+  width: 40vw;
+  height: 210px;
+}
+section.gallery button {
+  width: 250px;
+  margin: auto;
+  padding: 15px 0;
+  background: var(--gold);
+  color: white;
+  border: var(--green) solid 2px;
+}
+
+/*Sm*/
+@media (min-width: 500px) {
+  section.gallery .image_container {
+    gap: 20px;
+  }
+  section.gallery img {
+    width: 220px;
+    height: 280px;
+  }
+}
+/*Md*/
+@media (min-width: 768px) {
+  section.gallery .image_container {
+    gap: 20px;
+  }
+  section.gallery img {
+    width: 280px;
+    height: 380px;
+  }
+}
+
+/*Lg*/
+@media (min-width: 1024px) {
+  section.gallery .title_container {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 60px;
+    color: white;
+  }
+  section.gallery h1 {
+    font-size: 14rem;
+  }
+  section.gallery .image_container {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+  }
+  section.gallery img {
+    width: 300px;
+    height: 400px;
+  }
+  section.gallery .image_container img:last-child {
+    display: none;
+  }
+  section.gallery button {
+    width: 300px;
+    padding: 20px 0;
+  }
+}
+
+/*2xl*/
+@media (min-width: 1536px) {
+  section.gallery h1 {
+    font-size: 15rem;
+  }
+  section.gallery .wrapper {
+    gap: 60px;
+  }
+  section.gallery .image_container {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+  }
+  section.gallery img {
+    width: 400px;
+    height: 500px;
+  }
+  section.about article button {
+    width: 350px;
+  }
+}
