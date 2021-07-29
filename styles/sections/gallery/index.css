@@ -84,7 +84,7 @@ section.gallery button {
   }
   section.gallery img {
     width: 300px;
-    height: 400px;
+    height: 390px;
   }
   section.gallery .image_container img:last-child {
     display: none;
