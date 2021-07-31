@@ -1,0 +1,51 @@
+.word_box {
+  height: 90%;
+  width: 90%;
+  border: var(--orange) solid thick;
+  display: grid;
+  place-items: center;
+}
+.word_box span {
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0 10px;
+}
+.word_box a {
+  font-family: var(--script);
+  font-size: 2rem;
+  color: var(--green);
+}
+
+/*Md*/
+@media (min-width: 768px) {
+  .word_box span {
+    font-size: 2.5rem;
+    margin: 0 20px;
+  }
+  .word_box a {
+    font-size: 3rem;
+  }
+}
+
+/*Lg*/
+@media (min-width: 1024px) {
+  .word_box span {
+    font-size: 3rem;
+    margin: 0 30px;
+  }
+  .word_box a {
+    font-size: 3.5rem;
+  }
+}
+
+/*2xl*/
+@media (min-width: 1536px) {
+  .word_box span {
+    color: white;
+    font-size: 3.5rem;
+  }
+  .word_box a {
+    font-size: 4rem;
+  }
+}

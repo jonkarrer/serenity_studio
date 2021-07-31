@@ -1,0 +1,109 @@
+@import url("./word_box.css");
+
+section.gallery .image_board {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: minmax(240px, auto);
+  gap: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+.one {
+  display: none;
+}
+.two {
+  grid-column: 1 / 3;
+  background: center / cover no-repeat url("../../../assets/gallery/two.jpg");
+}
+.three {
+  display: none;
+}
+.four {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 5px;
+}
+.four .top {
+  background: center / cover no-repeat
+    url("../../../assets/gallery/four_top.jpg");
+}
+.four .bottom {
+  background: #cfbca3;
+  display: grid;
+  place-items: center;
+}
+.five {
+  background: center / cover no-repeat url("../../../assets/gallery/five.jpg");
+}
+.six {
+  display: none;
+}
+.seven {
+  background: center / cover no-repeat url("../../../assets/gallery/seven.jpeg");
+}
+.eight {
+  background: center / cover no-repeat url("../../../assets/gallery/eight.jpeg");
+}
+.nine {
+  background: center / cover no-repeat url("../../../assets/gallery/nine.jpeg");
+}
+.ten {
+  display: grid;
+  place-items: center;
+  background: #cfbca3;
+}
+
+/*Md*/
+@media (min-width: 768px) {
+  section.gallery .image_board {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(400px, auto);
+
+    width: 100%;
+    max-width: 700px;
+  }
+}
+
+/*Lg*/
+@media (min-width: 1024px) {
+  section.gallery .image_board {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(500px, auto);
+    gap: 20px;
+    width: 100%;
+    min-width: 900px;
+    max-width: 1200px;
+  }
+  .one {
+    display: grid;
+    place-items: center;
+    background: #cfbca3;
+  }
+  .two {
+    grid-column: 2 / 4;
+  }
+  .three {
+    display: block;
+    background: center / cover no-repeat
+      url("../../../assets/gallery/three.jpeg");
+  }
+  .four {
+    gap: 15px;
+  }
+  .six {
+    display: block;
+    grid-column: 1 /3;
+    background: center / cover no-repeat url("../../../assets/gallery/six.jpg");
+  }
+}
+
+/*2xl*/
+@media (min-width: 1536px) {
+  section.gallery .image_board {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(550px, auto);
+    min-width: 1200px;
+    max-width: 1500px;
+  }
+}

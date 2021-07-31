@@ -1,3 +1,5 @@
+@import url("./grid.css");
+
 section.gallery {
   background: var(--gold);
   position: relative;
@@ -10,7 +12,7 @@ section.gallery h1 {
   top: 0;
   right: 0;
   left: 0;
-  font-size: 6rem;
+  font-size: 5.5rem;
   font-weight: 400;
   text-align: center;
   z-index: -1;
@@ -27,16 +29,9 @@ section.gallery .wrapper {
   display: grid;
   place-items: center;
   gap: 40px;
+  width: 96%;
 }
-section.gallery .image_container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 15px;
-}
-section.gallery img {
-  width: 40vw;
-  height: 210px;
-}
+
 section.gallery button {
   width: 250px;
   margin: auto;
@@ -84,7 +79,7 @@ section.gallery button {
   }
   section.gallery img {
     width: 300px;
-    height: 390px;
+    height: 380px;
   }
   section.gallery .image_container img:last-child {
     display: none;

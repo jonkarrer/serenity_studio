@@ -4,11 +4,6 @@ A website for a client that does hair in florida. She wants a fresh reponsive we
 
 ## Feedback
 
-3. (IBE section)
-   ( we can add the webite/stylist locator section at the bottom of the page or something)
-
-4. Photo Gallery
-   I honestly love this gallery so for now so would like to leave it. Is this something that can be switched up with the ongoing plan as I get new ones to showcase? Or maybe have this just be a link to my IG and let section 5 have the photos displayed on the page?
 
 5. Specialties
    Is there a way to have numerous photos shown with a link to the specialties page similar to Amandas? I like how she has displayed herself, hair shot,and a model shot. I would honestly describe my list and what I offer the same as her specialty page with removing the teaching and changing the Elite to "Master Technician" followed by "I have completed 3 of the additional Master Courses and will be going through the 4th and final one this fall to become an Elite IBE Stylist." (or something like that)

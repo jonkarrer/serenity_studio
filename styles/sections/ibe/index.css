@@ -4,7 +4,6 @@ section.ibe {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  min-height: 300px;
   color: white;
 }
 section.ibe .wrapper {
@@ -32,16 +31,25 @@ section.ibe a {
 
 /*Md*/
 @media (min-width: 768px) {
+  section.ibe {
+    min-height: 500px;
+  }
 }
 
 /*Lg*/
 @media (min-width: 1024px) {
+  section.ibe {
+    min-height: 700px;
+  }
   section.ibe article {
-    gap: 30px;
+    gap: 40px;
     width: 80%;
   }
   section.ibe a {
     font-size: 2.3rem;
+  }
+  section.ibe img {
+    width: 250px;
   }
 }
 
