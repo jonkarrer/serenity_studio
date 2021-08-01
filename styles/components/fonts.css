@@ -33,7 +33,7 @@ h3 {
   font-size: 2.7rem;
 }
 h4 {
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 h5 {
   font-size: 1.8rem;
@@ -52,19 +52,19 @@ h6 {
     font-size: 5rem;
   }
   h3 {
-    font-size: 3.7rem;
+    font-size: 3.3rem;
   }
   h4 {
-    font-size: 3.2rem;
+    font-size: 2.2rem;
   }
   h5 {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
   }
   h6 {
     font-size: 2rem;
   }
   p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   button {
     font-size: 1.5rem;
@@ -74,25 +74,25 @@ h6 {
 /*2xl*/
 @media (min-width: 1536px) {
   h1 {
-    font-size: 9rem;
+    font-size: 8.7rem;
   }
   h2 {
-    font-size: 5.8rem;
+    font-size: 5.7rem;
   }
   h3 {
-    font-size: 4.7rem;
-  }
-  h4 {
     font-size: 4.2rem;
   }
+  h4 {
+    font-size: 2.7rem;
+  }
   h5 {
-    font-size: 3rem;
+    font-size: 2.2rem;
   }
   h6 {
     font-size: 3.5rem;
   }
   p {
-    font-size: 2.1rem;
+    font-size: 1.9rem;
   }
   button {
     font-size: 2rem;

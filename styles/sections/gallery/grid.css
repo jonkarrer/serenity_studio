@@ -28,7 +28,7 @@ section.gallery .image_board {
     url("../../../assets/gallery/four_top.jpg");
 }
 .four .bottom {
-  background: #cfbca3;
+  background: var(--dk-gold);
   display: grid;
   place-items: center;
 }
@@ -50,7 +50,7 @@ section.gallery .image_board {
 .ten {
   display: grid;
   place-items: center;
-  background: #cfbca3;
+  background: var(--dk-gold);
 }
 
 /*Md*/
@@ -78,7 +78,7 @@ section.gallery .image_board {
   .one {
     display: grid;
     place-items: center;
-    background: #cfbca3;
+    background: var(--dk-gold);
   }
   .two {
     grid-column: 2 / 4;
