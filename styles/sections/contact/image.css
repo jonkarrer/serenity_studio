@@ -1,0 +1,33 @@
+section.contact .image_container {
+  display: none;
+}
+
+/*Lg*/
+@media (min-width: 1024px) {
+  section.contact .image_container {
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    position: relative;
+  }
+  section.contact .image_container .portrait {
+    width: 400px;
+    z-index: 3;
+  }
+  section.contact .image_container .square {
+    position: absolute;
+    top: -300px;
+  }
+}
+
+/*2xl*/
+@media (min-width: 1536px) {
+  section.contact .image_container .portrait {
+    width: 500px;
+    z-index: 3;
+  }
+  section.contact .image_container .square {
+    transform: scale(1.3);
+    top: -250px;
+  }
+}

@@ -20,7 +20,10 @@ a {
 button {
   font-family: "Assistant", sans-serif;
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1.4rem;
+}
+span {
+  font-family: "Assistant", sans-serif;
 }
 
 h1 {

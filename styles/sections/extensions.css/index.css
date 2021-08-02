@@ -25,7 +25,3 @@ section.extensions .wrapper {
     height: 100%;
   }
 }
-
-/*2xl*/
-@media (min-width: 1536px) {
-}

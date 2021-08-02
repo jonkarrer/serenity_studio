@@ -1,0 +1,26 @@
+@import url("./form.css");
+@import url("./image.css");
+
+section.contact {
+  background: var(--green);
+  color: #f2e7e0;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+/*Lg*/
+@media (min-width: 1024px) {
+  section.contact .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/*2xl*/
+@media (min-width: 1536px) {
+  section {
+    padding: 90px 0;
+  }
+}
