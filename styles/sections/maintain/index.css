@@ -8,6 +8,9 @@ section.maintain article {
   margin: auto;
   width: 90%;
 }
+section.maintain .headline h1 {
+  font-size: 6rem;
+}
 section.maintain article span {
   color: var(--orange);
   font-size: 1.6rem;
@@ -26,6 +29,13 @@ section.maintain article span {
   }
 }
 
+/*Lg*/
+@media (min-width: 1024px) {
+  section.maintain .headline h1 {
+    font-size: 12rem;
+  }
+}
+
 /*2xl*/
 @media (min-width: 1536px) {
   section.maintain article {
@@ -34,5 +44,8 @@ section.maintain article span {
   section.maintain article span {
     font-size: 3rem;
     padding: 40px 0;
+  }
+  section.maintain .headline h1 {
+    font-size: 14rem;
   }
 }
