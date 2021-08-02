@@ -1,5 +1,7 @@
 @import url("./styles/components/header.css");
 @import url("./styles/components/fonts.css");
+@import url("./styles/components/headline.css");
+
 * {
   box-sizing: border-box;
   margin: 0;

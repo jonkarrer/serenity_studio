@@ -1,0 +1,9 @@
+@import url("./guide.css");
+
+section.maintain {
+  background: var(--dark);
+  overflow: hidden;
+}
+section.maintain article {
+  margin: auto;
+}

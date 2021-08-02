@@ -1,0 +1,95 @@
+.guide {
+  background: var(--dark);
+  padding-top: 40px;
+  overflow: hidden;
+}
+.guide .wrapper {
+  display: grid;
+  gap: 50px;
+}
+.guide ul {
+  display: grid;
+  gap: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.guide p {
+  line-height: 1.6;
+}
+.guide h3 {
+  height: 70px;
+}
+.guide h4 {
+  padding-top: 30px;
+}
+.guide .bad_habits h4 {
+  border-top: white solid 2px;
+}
+.guide .good_habits h4 {
+  border-top: var(--orange) solid 2px;
+}
+
+.guide .wrapper .good_habits,
+.guide .wrapper .bad_habits {
+  background: var(--green);
+  color: white;
+  padding: 30px;
+  border-radius: 0.2rem;
+}
+.guide .wrapper .bad_habits {
+  background: var(--gold);
+  color: var(--green);
+}
+
+/*Md*/
+@media (min-width: 768px) {
+  .guide {
+    padding-top: 60px;
+  }
+  .guide .wrapper {
+    grid: 1fr / repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+
+/*Lg*/
+@media (min-width: 1024px) {
+  .guide {
+    padding-top: 70px;
+  }
+  .guide .wrapper {
+    grid: 1fr / repeat(2, 1fr);
+    gap: 40px;
+  }
+  .guide ul {
+    gap: 20px;
+    padding-bottom: 30px;
+  }
+  .guide h3 {
+    height: 90px;
+  }
+  .guide h4 {
+    padding-top: 40px;
+  }
+}
+
+/*2xl*/
+@media (min-width: 1536px) {
+  .guide {
+    padding-top: 100px;
+  }
+  .guide .wrapper {
+    grid: 1fr / repeat(2, 1fr);
+    gap: 60px;
+  }
+  .guide ul {
+    gap: 20px;
+    padding-bottom: 40px;
+  }
+  .guide h3 {
+    height: 120px;
+  }
+  .guide h4 {
+    padding-top: 50px;
+  }
+}
