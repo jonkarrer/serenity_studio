@@ -8,6 +8,7 @@ section.contact .image_container {
     display: flex;
     justify-content: center;
     width: 40vw;
+    height: 550px;
     position: relative;
   }
   section.contact .image_container .portrait {
@@ -24,6 +25,7 @@ section.contact .image_container {
 @media (min-width: 1536px) {
   section.contact .image_container {
     width: 30vw;
+    height: 650px;
   }
   section.contact .image_container .portrait {
     width: 500px;
