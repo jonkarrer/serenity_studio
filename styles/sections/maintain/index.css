@@ -6,4 +6,33 @@ section.maintain {
 }
 section.maintain article {
   margin: auto;
+  width: 90%;
+}
+section.maintain article span {
+  color: var(--orange);
+  font-size: 1.6rem;
+  padding: 20px 0;
+}
+
+/*Md*/
+@media (min-width: 768px) {
+  section.maintain article {
+    margin: auto;
+    width: 70%;
+  }
+  section.maintain article span {
+    font-size: 2rem;
+    padding: 30px 0;
+  }
+}
+
+/*2xl*/
+@media (min-width: 1536px) {
+  section.maintain article {
+    width: 100%;
+  }
+  section.maintain article span {
+    font-size: 3rem;
+    padding: 40px 0;
+  }
 }
