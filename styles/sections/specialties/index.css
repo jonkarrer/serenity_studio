@@ -13,7 +13,7 @@ section.specialties .wrapper {
   gap: 40px;
 }
 section.specialties .wrapper div {
-  background: var(--dk-gold);
+  background: #faf7f5;
   position: relative;
   text-align: center;
   height: 220px;
@@ -29,6 +29,12 @@ section.specialties h1 {
   bottom: -40px;
   font-family: var(--script);
   color: var(--green);
+  font-weight: 400;
+}
+section.specialties .start {
+  font-size: 1.6rem;
+  color: var(--orange);
+  font-weight: 600;
 }
 
 /*Md*/
@@ -48,6 +54,9 @@ section.specialties h1 {
   section.specialties h1 {
     bottom: -40px;
   }
+  section.specialties .start {
+    font-size: 1.8rem;
+  }
 }
 
 /*Lg*/
@@ -66,6 +75,9 @@ section.specialties h1 {
   }
   section.specialties h1 {
     bottom: -60px;
+  }
+  section.specialties .start {
+    font-size: 2rem;
   }
 }
 

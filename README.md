@@ -4,10 +4,6 @@ A website for a client that does hair in florida. She wants a fresh reponsive we
 
 ## Feedback
 
-
-5. Specialties
-   Is there a way to have numerous photos shown with a link to the specialties page similar to Amandas? I like how she has displayed herself, hair shot,and a model shot. I would honestly describe my list and what I offer the same as her specialty page with removing the teaching and changing the Elite to "Master Technician" followed by "I have completed 3 of the additional Master Courses and will be going through the 4th and final one this fall to become an Elite IBE Stylist." (or something like that)
-
 6. I like the 2nd option you have listed. This is what I'd like for wording:
    Bead Extensions are the safest method for weft extensions on the market, and my preferred method. Style your hair any way you want! The key to this method is having both a tension and irritation free application. I.B.E. consists of applying beads to your section of hair, then applying handtied wefts above and below to create a completely seamless application. You can add volume, length or both to your hair and almost everyone is a candidate.
 

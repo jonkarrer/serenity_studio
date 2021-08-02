@@ -1,0 +1,31 @@
+@import url("./article.css");
+@import url("./images.css");
+
+section.extensions {
+  background: center / cover no-repeat;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("../../../assets/gallery/four_top.jpg");
+  overflow: hidden;
+}
+section.extensions .wrapper {
+  display: grid;
+  gap: 60px;
+}
+
+/*Lg*/
+@media (min-width: 1024px) {
+  section.extensions {
+    height: 100vh;
+  }
+  section.extensions .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+    height: 100%;
+  }
+}
+
+/*2xl*/
+@media (min-width: 1536px) {
+}

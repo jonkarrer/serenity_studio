@@ -1,0 +1,63 @@
+section.extensions article {
+  color: white;
+  display: grid;
+  place-items: center;
+  position: relative;
+  gap: 40px;
+}
+section.extensions article button {
+  width: 250px;
+  margin: auto;
+  padding: 15px 0;
+  background: none;
+  color: white;
+  border: var(--green) solid 2px;
+}
+section.extensions h1 {
+  position: absolute;
+  font-family: var(--script);
+  color: var(--green);
+  font-weight: 400;
+  top: -30px;
+  font-size: 7.2rem;
+  text-align: center;
+}
+section.extensions .title_container {
+  z-index: 3;
+  text-align: center;
+}
+
+/*Lg*/
+@media (min-width: 1024px) {
+  section.extensions article {
+    gap: 40px;
+    width: 45vw;
+    text-align: center;
+  }
+  section.extensions article button {
+    width: 300px;
+    padding: 20px 0;
+  }
+  section.extensions h1 {
+    font-size: 12rem;
+    top: -70px;
+  }
+  section.extensions .title_container {
+    z-index: 3;
+    text-align: center;
+  }
+}
+
+/*2xl*/
+@media (min-width: 1536px) {
+  section.extensions article button {
+    width: 350px;
+  }
+  section.extensions article {
+    gap: 60px;
+  }
+  section.extensions h1 {
+    font-size: 14rem;
+    top: -70px;
+  }
+}

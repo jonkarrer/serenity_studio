@@ -3,7 +3,8 @@ section.ibe {
     url("../../../assets/ibe/salon_bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   color: white;
 }
 section.ibe .wrapper {
@@ -63,6 +64,6 @@ section.ibe a {
     font-size: 3rem;
   }
   section.ibe img {
-    width: 330px;
+    width: 300px;
   }
 }
