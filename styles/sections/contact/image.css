@@ -22,6 +22,9 @@ section.contact .image_container {
 
 /*2xl*/
 @media (min-width: 1536px) {
+  section.contact .image_container {
+    width: 30vw;
+  }
   section.contact .image_container .portrait {
     width: 500px;
     z-index: 3;

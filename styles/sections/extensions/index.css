@@ -16,6 +16,7 @@ section.extensions .wrapper {
 @media (min-width: 1024px) {
   section.extensions {
     height: 100vh;
+    max-height: 1000px;
   }
   section.extensions .wrapper {
     display: flex;

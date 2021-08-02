@@ -1,0 +1,110 @@
+section.hours {
+  background: var(--gold);
+  color: var(--green);
+  text-align: center;
+}
+section.hours .wrapper {
+  display: grid;
+  gap: 30px;
+}
+section.hours img {
+  display: none;
+}
+section.hours .days {
+  display: grid;
+  gap: 25px;
+}
+section.hours .days div {
+  display: grid;
+  gap: 10px;
+}
+section.hours .times {
+  font-size: 1.6rem;
+}
+section.hours .consult {
+  display: grid;
+  place-items: center;
+  gap: 20px;
+}
+section.hours button {
+  width: 150px;
+}
+
+/*Lg*/
+@media (min-width: 1024px) {
+  section.hours {
+    display: flex;
+    text-align: left;
+    padding: 0;
+    max-height: 450px;
+  }
+  section.hours .wrapper {
+    display: grid;
+    gap: 20px;
+    margin: 30px;
+    max-height: 400px;
+  }
+  section.hours img {
+    display: block;
+    width: 50vw;
+  }
+  section.hours .days {
+    display: grid;
+    gap: 25px;
+  }
+  section.hours .days div {
+    display: flex;
+    justify-content: space-between;
+  }
+  section.hours .times {
+    font-size: 1.8rem;
+  }
+  section.hours .consult {
+    display: grid;
+    place-items: start;
+    gap: 20px;
+    width: 300px;
+  }
+  section.hours button {
+    width: 180px;
+    padding: 5px 0;
+  }
+}
+
+/*2xl*/
+@media (min-width: 1536px) {
+  section.hours {
+    max-height: 550px;
+  }
+  section.hours .wrapper {
+    display: grid;
+    gap: 20px;
+    margin: 30px;
+    max-height: 550px;
+  }
+  section.hours img {
+    max-width: 1100px;
+  }
+  section.hours .days {
+    display: grid;
+    gap: 25px;
+  }
+  section.hours .days div {
+    display: flex;
+    justify-content: space-between;
+  }
+  section.hours .times {
+    font-size: 2.2rem;
+  }
+  section.hours .consult {
+    display: grid;
+    place-items: start;
+    gap: 20px;
+    width: 300px;
+  }
+  section.hours button {
+    width: 180px;
+    padding: 5px 0;
+    font-size: 1.7rem;
+  }
+}

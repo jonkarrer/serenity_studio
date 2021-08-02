@@ -32,6 +32,7 @@ section.extensions .title_container {
   section.extensions article {
     gap: 40px;
     width: 45vw;
+    max-width: 1000px;
     text-align: center;
   }
   section.extensions article button {
