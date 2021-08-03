@@ -71,63 +71,14 @@ footer .wrapper menu a {
   footer {
     padding: 80px 0;
   }
-  footer .logo {
-    font-size: var(--lg);
-  }
-  footer .wrapper menu h2 {
-    font-size: var(--base);
-  }
   footer .wrapper menu a {
     margin-top: 40px;
-    font-size: var(--sm);
+    font-size: 1.4rem;
   }
   footer .wrapper {
     max-width: 1500px;
   }
   footer .logo {
-    width: 180px;
-  }
-}
-
-/*2k*/
-@media (min-width: 2000px) {
-  footer {
-    padding: 100px 0;
-  }
-  footer .logo {
-    font-size: var(--lg);
-  }
-  footer .wrapper menu h2 {
-    font-size: var(--md);
-  }
-  footer .wrapper menu a {
-    margin-top: 60px;
-    font-size: var(--base);
-  }
-  footer .wrapper {
-    max-width: 2000px;
-  }
-  footer .logo {
-    width: 230px;
-  }
-}
-
-/*4k*/
-@media (min-width: 3000px) {
-  footer {
-    padding: 120px 0;
-  }
-  footer .logo {
-    font-size: var(--xl);
-  }
-  footer .wrapper menu h2 {
-    font-size: var(--lg);
-  }
-  footer .wrapper menu a {
-    margin-top: 40px;
-    font-size: var(--md);
-  }
-  footer .wrapper {
-    max-width: 2800px;
+    width: 300px;
   }
 }
