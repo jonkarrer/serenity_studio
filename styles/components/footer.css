@@ -1,0 +1,132 @@
+footer {
+  padding: 60px 0;
+  background: var(--dark);
+  position: relative;
+  max-width: 2000px;
+  margin: auto;
+}
+footer p {
+  position: absolute;
+  width: 80%;
+  bottom: 15px;
+  margin-top: 20px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  color: var(--orange);
+  text-align: right;
+}
+footer .wrapper {
+  display: grid;
+  gap: 30px;
+  width: 80%;
+}
+footer .logo {
+  width: 200px;
+  margin: auto;
+}
+footer .wrapper menu {
+  display: flex;
+  flex-direction: column;
+}
+footer .wrapper menu h4 {
+  color: var(--gold);
+}
+footer .wrapper menu a {
+  margin-top: 15px;
+  font-size: 1.3rem;
+  color: var(--gold);
+}
+
+/*Md*/
+@media (min-width: 768px) {
+  footer .wrapper {
+    display: flex;
+    width: 96%;
+    margin: auto;
+    justify-content: space-between;
+  }
+}
+
+/*Lg*/
+@media (min-width: 1024px) {
+  footer {
+    padding: 60px 0;
+  }
+  footer .wrapper menu a {
+    margin-top: 30px;
+    font-size: var(--xs);
+  }
+  footer .wrapper {
+    max-width: 1200px;
+  }
+  footer .logo {
+    width: 120px;
+  }
+}
+
+/*XXl*/
+@media (min-width: 1536px) {
+  footer {
+    padding: 80px 0;
+  }
+  footer .logo {
+    font-size: var(--lg);
+  }
+  footer .wrapper menu h2 {
+    font-size: var(--base);
+  }
+  footer .wrapper menu a {
+    margin-top: 40px;
+    font-size: var(--sm);
+  }
+  footer .wrapper {
+    max-width: 1500px;
+  }
+  footer .logo {
+    width: 180px;
+  }
+}
+
+/*2k*/
+@media (min-width: 2000px) {
+  footer {
+    padding: 100px 0;
+  }
+  footer .logo {
+    font-size: var(--lg);
+  }
+  footer .wrapper menu h2 {
+    font-size: var(--md);
+  }
+  footer .wrapper menu a {
+    margin-top: 60px;
+    font-size: var(--base);
+  }
+  footer .wrapper {
+    max-width: 2000px;
+  }
+  footer .logo {
+    width: 230px;
+  }
+}
+
+/*4k*/
+@media (min-width: 3000px) {
+  footer {
+    padding: 120px 0;
+  }
+  footer .logo {
+    font-size: var(--xl);
+  }
+  footer .wrapper menu h2 {
+    font-size: var(--lg);
+  }
+  footer .wrapper menu a {
+    margin-top: 40px;
+    font-size: var(--md);
+  }
+  footer .wrapper {
+    max-width: 2800px;
+  }
+}

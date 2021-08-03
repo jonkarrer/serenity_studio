@@ -1,6 +1,7 @@
 @import url("./styles/components/header.css");
 @import url("./styles/components/fonts.css");
 @import url("./styles/components/headline.css");
+@import url("./styles/components/footer.css");
 
 * {
   box-sizing: border-box;
@@ -9,8 +10,6 @@
 }
 html {
   scroll-behavior: smooth;
-}
-body {
 }
 
 body::-webkit-scrollbar {
