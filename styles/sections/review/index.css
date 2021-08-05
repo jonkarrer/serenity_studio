@@ -1,0 +1,47 @@
+section.review {
+  background: var(--gold);
+}
+section.review .wrapper {
+  display: grid;
+  place-items: center;
+  gap: 30px;
+}
+section.review h3 {
+  text-align: center;
+  background: -webkit-linear-gradient(120deg, #999b62, #2f301e);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+section.review button {
+  margin: auto;
+  width: 200px;
+  padding: 10px 0;
+  background: none;
+  border: var(--green) solid 2px;
+  color: var(--green);
+}
+
+/*Lg*/
+@media (min-width: 1024px) {
+  section.review button {
+    width: 250px;
+    padding: 15px 0;
+  }
+  section.review .wrapper {
+    display: grid;
+    place-items: center;
+    gap: 40px;
+  }
+}
+
+/*2xl*/
+@media (min-width: 1536px) {
+  section.review button {
+    width: 280px;
+    padding: 15px 0;
+  }
+  section.review .wrapper {
+    gap: 50px;
+  }
+}

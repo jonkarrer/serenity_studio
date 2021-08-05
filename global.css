@@ -55,10 +55,6 @@ section {
   margin: auto;
 }
 
-/*Md*/
-@media (min-width: 768px) {
-}
-
 /*Lg*/
 @media (min-width: 1024px) {
   section {

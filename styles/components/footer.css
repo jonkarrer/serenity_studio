@@ -4,7 +4,6 @@ footer {
   position: relative;
   max-width: 2000px;
   margin: auto;
-  border-top: var(--gold) solid 10px;
 }
 footer p {
   position: absolute;
@@ -23,7 +22,7 @@ footer .wrapper {
   width: 80%;
 }
 footer .logo {
-  width: 200px;
+  width: 230px;
   margin: auto;
 }
 footer .wrapper menu {
@@ -37,10 +36,6 @@ footer .wrapper menu a {
   margin-top: 15px;
   font-size: 1.3rem;
   color: var(--gold);
-}
-
-/*Md*/
-@media (min-width: 768px) {
 }
 
 /*Lg*/

@@ -39,13 +39,13 @@ section.gallery .image_board {
   display: none;
 }
 .seven {
-  background: center / cover no-repeat url("../../../assets/gallery/seven.jpeg");
+  background: center / cover no-repeat url("../../../assets/gallery/seven.jpg");
 }
 .eight {
-  background: center / cover no-repeat url("../../../assets/gallery/eight.jpeg");
+  background: center / cover no-repeat url("../../../assets/gallery/eight.jpg");
 }
 .nine {
-  background: center / cover no-repeat url("../../../assets/gallery/nine.jpeg");
+  background: center / cover no-repeat url("../../../assets/gallery/nine.jpg");
 }
 .ten {
   display: grid;
@@ -86,7 +86,7 @@ section.gallery .image_board {
   .three {
     display: block;
     background: center / cover no-repeat
-      url("../../../assets/gallery/three.jpeg");
+      url("../../../assets/gallery/three.jpg");
   }
   .four {
     gap: 15px;

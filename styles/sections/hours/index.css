@@ -29,6 +29,7 @@ section.hours .consult {
 section.hours button {
   width: 150px;
   background: #faf7f5;
+  padding: 5px 0;
 }
 
 /*Lg*/
@@ -68,7 +69,7 @@ section.hours button {
   }
   section.hours button {
     width: 180px;
-    padding: 5px 0;
+    padding: 10px 0;
   }
 }
 
