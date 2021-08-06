@@ -38,7 +38,7 @@ section.hours button {
     display: flex;
     text-align: left;
     padding: 0;
-    max-height: 450px;
+    height: 500px;
   }
   section.hours .wrapper {
     display: grid;
