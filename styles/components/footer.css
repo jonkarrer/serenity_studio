@@ -1,9 +1,10 @@
 footer {
   padding: 60px 0;
-  background: var(--dark);
+  background: var(--gold);
   position: relative;
   max-width: 2000px;
   margin: auto;
+  border-top: var(--dark) solid 15px;
 }
 footer p {
   position: absolute;
@@ -30,12 +31,12 @@ footer .wrapper menu {
   flex-direction: column;
 }
 footer .wrapper menu h4 {
-  color: var(--gold);
+  color: var(--green);
 }
 footer .wrapper menu a {
   margin-top: 15px;
   font-size: 1.3rem;
-  color: var(--gold);
+  color: var(--dark);
 }
 
 /*Lg*/

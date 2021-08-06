@@ -1,6 +1,5 @@
 header {
-  background: var(--dark);
-  width: 100vw;
+  background: var(--gold);
   display: grid;
   z-index: 10;
   max-width: 2000px;
@@ -8,11 +7,12 @@ header {
 }
 header img {
   margin: auto;
-  width: 150px;
+  width: 100px;
 }
 header nav {
-  background: var(--gold);
+  background: var(--dark);
   width: 100%;
+  color: var(--gold);
   text-align: center;
   display: grid;
   grid-auto-flow: column;
@@ -35,7 +35,7 @@ header nav {
 /*Lg*/
 @media (min-width: 1024px) {
   header img {
-    width: 200px;
+    width: 120px;
   }
   header nav {
     gap: 130px;
@@ -47,7 +47,7 @@ header nav {
 /*2xl*/
 @media (min-width: 1536px) {
   header img {
-    width: 250px;
+    width: 150px;
   }
   header nav {
     font-size: 1.6rem;
