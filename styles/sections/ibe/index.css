@@ -3,6 +3,7 @@ section.ibe {
     url("../../../assets/ibe/salon_bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   min-height: 100vh;
   height: auto;
   color: white;
@@ -40,7 +41,7 @@ section.ibe a {
 /*Lg*/
 @media (min-width: 1024px) {
   section.ibe {
-    min-height: 700px;
+    min-height: 750px;
   }
   section.ibe article {
     gap: 40px;
