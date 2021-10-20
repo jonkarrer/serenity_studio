@@ -28,7 +28,11 @@
 .guide .good_habits h4 {
   border-top: var(--orange) solid 2px;
 }
-
+.guide a {
+  color: var(--white);
+  font-weight: bold;
+  text-decoration: underline;
+}
 .guide .wrapper .good_habits,
 .guide .wrapper .bad_habits {
   background: var(--green);
