@@ -1,6 +1,6 @@
 footer {
   padding: 60px 0;
-  background: var(--gold);
+  background: var(--dark);
   position: relative;
   max-width: 2000px;
   margin: auto;
@@ -36,7 +36,7 @@ footer .wrapper menu h4 {
 footer .wrapper menu a {
   margin-top: 15px;
   font-size: 1.3rem;
-  color: var(--dark);
+  color: var(--gold);
 }
 
 /*Lg*/

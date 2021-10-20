@@ -32,6 +32,16 @@ section.about h1 {
   font-weight: 400;
   text-align: center;
 }
+section.about .bio {
+  display: grid;
+  gap: 20px;
+}
+section.about .bio p:first-child {
+  font-weight: bold;
+}
+section.about .bio p:last-child {
+  font-weight: bold;
+}
 
 /*Lg*/
 @media (min-width: 1024px) {
@@ -46,16 +56,6 @@ section.about h1 {
   }
   section.about h1 {
     font-size: 14rem;
-  }
-  section.about .bio {
-    display: grid;
-    gap: 20px;
-  }
-  section.about .bio p:first-child {
-    font-weight: bold;
-  }
-  section.about .bio p:last-child {
-    font-weight: bold;
   }
 }
 
