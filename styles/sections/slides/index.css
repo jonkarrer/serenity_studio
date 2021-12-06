@@ -28,6 +28,7 @@ section.slides {
 .slides_wrapper h5 {
   font-family: var(--script);
   height: 20px;
+  font-size: 32px;
 }
 
 /* Initial animations for slide */

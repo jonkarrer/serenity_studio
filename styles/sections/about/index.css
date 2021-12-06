@@ -32,6 +32,9 @@ section.about h1 {
   font-weight: 400;
   text-align: center;
 }
+section.about h2 {
+  margin-top: 30px;
+}
 section.about .bio {
   display: grid;
   gap: 20px;

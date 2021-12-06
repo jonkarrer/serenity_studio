@@ -1,6 +1,6 @@
 .guide {
   background: var(--dark);
-  padding-top: 40px;
+  padding: 40px 0;
   overflow: hidden;
 }
 .guide .wrapper {
@@ -49,10 +49,6 @@
 @media (min-width: 768px) {
   .guide {
     padding-top: 60px;
-  }
-  .guide .wrapper {
-    grid: 1fr / repeat(2, 1fr);
-    gap: 30px;
   }
 }
 
