@@ -45,7 +45,12 @@ section.about .bio p:first-child {
 section.about .bio p:last-child {
   font-weight: bold;
 }
-
+section.about img {
+  width: 100vw;
+  max-width: 700px;
+  margin: auto;
+  margin-top: -65px;
+}
 /*Lg*/
 @media (min-width: 1024px) {
   section.about article {
@@ -60,6 +65,10 @@ section.about .bio p:last-child {
   section.about h1 {
     font-size: 14rem;
   }
+  section.about img {
+    margin-top: -85px;
+    max-width: 800px;
+  }
 }
 
 /*2xl*/
@@ -73,5 +82,9 @@ section.about .bio p:last-child {
   }
   section.about h1 {
     font-size: 16rem;
+  }
+  section.about img {
+    margin-top: -115px;
+    max-width: 1000px;
   }
 }
